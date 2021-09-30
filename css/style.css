@@ -1,12 +1,85 @@
 /* regole generali*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* regole main */
 
+main{
+    height: calc(100vh - 80px);
+    display: flex;
+
+    /* regole debug */
+    background-color: rgb(0, 0, 0);
+
+}
+
 /* regole header */
+
+header{
+    height: 80px;
+    display: flex;
+    /* regole debug */
+    background-color: rgb(80, 86, 103);
+    justify-content:space-between;
+    align-items:center;
+
+}
 
 
 /* regole nav sx */
+.nav_sx{
+    display: flex;
+    /* regoledebug */
+    background-color: saddlebrown;
+}
+
+.audio{
+    margin: 0 5px;
+    /* regoledebug */
+    height: 30px;
+    background-color: seashell;
+    width: 100px;
+}
+
+.video{
+    margin: 0 5px;
+     /* regoledebug */
+    width: 100px;
+    height: 30px;
+    background-color: seashell;
+}
 
 /* regole nav centro */
+.nav_centro{
+    display: flex;
+    /* regoledebug */
+    background-color: saddlebrown;
+}
+
+.ico{
+    margin: 0 5px;
+    /* regoledebug */
+   width: 50px;
+   height: 30px;
+   background-color: seashell;
+
+}
 
 /* regole nav dx */
+.nav_dx{
+    display: flex;
+    /* regoledebug */
+    background-color: saddlebrown;
+}
+
+.fineriunione{
+
+    margin: 0 5px;
+    /* regoledebug */
+   width: 100px;
+   height: 30px;
+   background-color: seashell;
+}
