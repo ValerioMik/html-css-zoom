@@ -5,13 +5,34 @@
     box-sizing: border-box;
 }
 
+section{
+display: flex;
+justify-content: flex-end;
+background-color: rgb(0, 0, 0);
+}
+
+.bottone{
+background-color:rgb(95, 95, 96);
+height: auto;
+background-color: rgb(95, 95, 96);
+padding: 10px;
+border-radius: 18px;
+margin: 7px;
+}
+
+}
+
+.view{
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+
 /* regole main */
 
 main{
-    height: calc(100vh - 80px);
-    display: flex;
-    justify-content:center;
-    align-items: center;
+    height: calc(100vh - 154px);
     /* regole debug */
     background-color: rgb(0, 0, 0);
 
@@ -19,39 +40,16 @@ main{
 
 
 
-.speeker{
-  /* regoledebug */
-  width: 10px;
-  height: 30px;
-  background-color: seashell;
-
-}
-
-
-.macrocontenitore{
- 
-}
-
-.immagini{
-    height: 150px;
-    margin: 2px 9p;
-    display: inline-block;
-}
-
-.img{
-    width: 100%;
-    height: 100%;
-}
-
 /* regole header */
 
 header{
-    height: 80px;
+    height: 50px;
     display: flex;
     /* regole debug */
-    background-color: rgb(80, 86, 103);
+    background-color: rgb(80, 86, 95);
     justify-content:space-between;
-    align-items:center;
+    align-items: center;
+    
 
 }
 
@@ -90,17 +88,17 @@ header{
 }
 
 .far{
-    font-size: 40px;
+    font-size: 25px;
     color: white;
 }
 
 .fas{
-    font-size: 40px;
+    font-size: 25px;
     color: white;
 }
 
 .fa-chevron-up{
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 21px;
 }
 
