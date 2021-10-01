@@ -20,6 +20,26 @@ border-radius: 18px;
 margin: 7px;
 }
 
+.macrocontenitore::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonnasx{
+    float: left;
+    width: 10%;
+}
+
+.colonnapersone{
+    float: left;
+    width: 75%;
+}
+
+
+
+.immagini{
+    display: inline-block;
 }
 
 .view{
@@ -81,10 +101,14 @@ header{
 }
 
 .ico{
-    margin: 0 25px;
+    margin: 0 20px;
+    
     /* regoledebug */
- 
 
+}
+.bott{
+    display: block;
+    
 }
 
 .far{
@@ -99,19 +123,21 @@ header{
 
 .fa-chevron-up{
     font-size: 15px;
-    margin: 0 21px;
+    
 }
 
 /* regole nav dx */
 .nav_dx{
     display: flex;
+    background-color: rgb(95, 95, 96);
     /* regoledebug */
    
 }
 
 .fineriunione{
 
-    margin: 0 5px;
-    /* regoledebug */
-  
+}
+
+.rosso{
+    color: red;
 }
