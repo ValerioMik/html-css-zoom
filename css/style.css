@@ -9,6 +9,7 @@ section{
 display: flex;
 justify-content: flex-end;
 background-color: rgb(0, 0, 0);
+height: 60px;
 }
 
 .bottone{
@@ -26,20 +27,33 @@ margin: 7px;
     clear: both;
 }
 
+
+
+
 .colonnasx{
     float: left;
     width: 10%;
 }
+.colonnadx{
+    float: right;
+    width: 10%%;
+}
+
+.img{
+    width: 204px;
+}
 
 .colonnapersone{
     float: left;
-    width: 75%;
+    width: 80%;
+    overflow-y: hidden;
+    height: 500px
 }
 
 
 
 .immagini{
-    display: inline-block;
+    float: left;
 }
 
 .view{
@@ -52,7 +66,7 @@ margin: 7px;
 /* regole main */
 
 main{
-    height: calc(100vh - 154px);
+    height: calc(100vh - 110px);
     /* regole debug */
     background-color: rgb(0, 0, 0);
 
@@ -83,12 +97,14 @@ header{
 
 .audio{
     margin: 0 10px;
+    text-align: center;
     /* regoledebug */
   
 }
 
 .video{
     margin: 0 10px;
+    text-align: center;
      /* regoledebug */
    
 }
@@ -102,6 +118,7 @@ header{
 
 .ico{
     margin: 0 20px;
+    text-align: center;
     
     /* regoledebug */
 
@@ -123,6 +140,7 @@ header{
 
 .fa-chevron-up{
     font-size: 15px;
+    color: green;
     
 }
 
